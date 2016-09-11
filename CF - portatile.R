@@ -13,9 +13,9 @@ library(pls)
 ############ Data Preparation ############
 # Loading data
 # Desktop PC
-# data <- read.csv("C:\\Users\\Casa\\Desktop\\Andrea\\italian taste\\IT_TN1.csv",header=T,sep=";")
+# data <- read.csv("C:###########\\IT_TN1.csv",header=T,sep=";")
 # Notebook
-data <- read.csv("C:\\Users\\Andrea\\Desktop\\FEM\\Italian Taste\\Modello\\IT_TN1.csv",header=T,sep=";")
+data <- read.csv("C:###########\\IT_TN1.csv",header=T,sep=";")
 data <- data[,1:883]
 # split data into training and test set
 train_ind <- sample(seq_len(nrow(data)), size = 0.8*nrow(data))
